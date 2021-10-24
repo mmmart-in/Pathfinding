@@ -1,0 +1,60 @@
+{
+    "name": "DelegateInput",
+    "maps": [
+        {
+            "name": "ClickOnScreen",
+            "id": "cbc12faa-7fe4-43c4-bd34-2d940f3cef73",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "0a63e8cb-eeba-4fed-ac25-d4203a45344f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35612099-e8cb-4375-930c-666513ee99da",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PlayerControls",
+            "id": "38d1ca6f-fbd4-4d07-b795-7344a27f1f80",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "81f42178-dfd9-48ef-a328-e86572688574",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a610a351-e140-4949-9b0e-394f939981ff",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
